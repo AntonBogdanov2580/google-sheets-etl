@@ -1,0 +1,14 @@
+# .gitignore
+credentials.json
+token.json
+*.db
+*.sqlite
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
