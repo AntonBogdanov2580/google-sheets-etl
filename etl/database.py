@@ -22,15 +22,6 @@ from sqlalchemy.orm import DeclarativeBase, Session
 class Base(DeclarativeBase):
     pass
 
-
-# ---------------------------------------------------------------------------
-# We use a flexible "wide" table with Text columns so that the schema works
-# regardless of the exact column names coming from Google Sheets.
-# The fixed/known columns are declared explicitly; unknown columns from the
-# sheet are stored via pandas to_sql with extend_existing=True.
-# ---------------------------------------------------------------------------
-
-
 def get_engine(db_url: str):
     """Create a SQLAlchemy engine. Works with SQLite, PostgreSQL, ClickHouse."""
     connect_args = {}
