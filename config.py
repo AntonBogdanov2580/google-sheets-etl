@@ -1,6 +1,6 @@
 
 # ID Google Таблицы (из URL: /spreadsheets/d/<ID>/edit)
-SPREADSHEET_ID = "1AXGsVD1Dp4YfuKdaSfT5SY0detbbDmmMBzJXsLG7-30"
+SPREADSHEET_ID = "SHEET_ID"
 
 # Название листа
 SHEET_NAME = "Тест"
